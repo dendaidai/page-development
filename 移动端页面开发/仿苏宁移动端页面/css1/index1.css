@@ -1,0 +1,232 @@
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+body {
+  width: 10rem;
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+/* header */
+#header {
+  width: 10rem;
+  height: 2.4rem;
+  background-color: #953C36;
+}
+#header .header-top {
+  width: 9.0933rem;
+  height: 1.1733rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header-top a {
+  display: block;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#header .header-top a:nth-child(1) {
+  width: 0.48rem;
+  height: 0.8rem;
+  background-image: url(../img/header-top-img1.png);
+}
+#header .header-top a:nth-child(2) {
+  width: 5.2rem;
+  height: 1.0133rem;
+  background-image: url(../img/header-top-img2.gif);
+}
+#header .header-top a:nth-child(3) {
+  width: 0.48rem;
+  height: 0.8rem;
+  background-image: url(../img/header-top-img3.png);
+}
+#header .header-bottom {
+  box-sizing: border-box;
+  width: 10rem;
+  height: 1.2266rem;
+  padding: 0 .32rem;
+  overflow: hidden;
+}
+#header .header-bottom a {
+  display: block;
+  width: auto;
+  height: 1rem;
+  margin-top: 0.1133rem;
+  background-color: white;
+  border-radius: 0.667rem;
+  position: relative;
+}
+#header .header-bottom a span {
+  display: inline-block;
+  line-height: 1rem;
+  font-size: 0.4rem;
+  color: #333;
+  margin-left: 0.866rem;
+}
+#header .header-bottom a i {
+  position: absolute;
+  width: 0.48rem;
+  height: 0.48rem;
+  top: 0.24rem;
+  left: 0.266rem;
+  background-image: url(../img/header-bottom-img1.png);
+  background-size: 100% 100%;
+}
+/* banner */
+#banner {
+  width: 10rem;
+  background-color: #953C36;
+  border-top: 1px solid #AD6B66;
+}
+#banner .banner-top {
+  display: block;
+  width: 9.333rem;
+  height: 3.466rem;
+  margin: 0 auto;
+}
+#banner .banner-top img {
+  width: 9.333rem;
+  height: 3.466rem;
+  border-radius: 0.333rem;
+}
+#banner .banner-middle {
+  display: block;
+  width: 10rem;
+  height: 2.373rem;
+  border-top: 1px solid #AD6B66;
+}
+#banner .banner-middle img {
+  width: 10rem;
+  height: 2.373rem;
+}
+#banner .banner-bottom {
+  display: flex;
+  width: 10rem;
+  height: 2.333rem;
+  border-top: 1px solid #AD6B66;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .banner-bottom a {
+  display: block;
+  width: 3.333rem;
+  height: 2.333rem;
+}
+#banner .banner-bottom a:nth-child(1) {
+  background-image: url(../img/banner-bottom-img1.jpg);
+  background-size: 3.333rem 2.333rem;
+}
+#banner .banner-bottom a:nth-child(2) {
+  background-image: url(../img/banner-bottom-img2.jpg);
+  background-size: 3.333rem 2.333rem;
+}
+#banner .banner-bottom a:nth-child(3) {
+  background-image: url(../img/banner-bottom-img3.jpg);
+  background-size: 3.333rem 2.333rem;
+}
+/* nav */
+#nav .nav-content {
+  width: 10rem;
+  height: 4.1066rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+#nav .nav-content li {
+  flex-basis: 2rem;
+  height: 2.0533rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+#nav .nav-content li a {
+  width: 2rem;
+  height: 2.0533rem;
+  display: block;
+  overflow: hidden;
+}
+#nav .nav-content li a img {
+  display: block;
+  width: 1.12rem;
+  height: 1.12rem;
+  margin: 0 auto;
+  margin-top: 0.266rem;
+}
+#nav .nav-content li a .word {
+  font-size: 0.2933rem;
+  text-align: center;
+  color: #666;
+}
+/* 新人专享 */
+#xr {
+  width: 10rem;
+  height: 3.12rem;
+  display: flex;
+  justify-content: space-around;
+}
+#xr a {
+  display: block;
+  height: 3.12rem;
+  background-size: 100% 100%;
+}
+#xr a:nth-child(1) {
+  width: 5rem;
+  background-image: url(../img/xr-left-img.png);
+}
+#xr a:nth-child(2) {
+  width: 2.4rem;
+  background-image: url(../img/xr-middle-img.gif);
+}
+#xr a:nth-child(3) {
+  width: 2.4rem;
+  background-image: url(../img/xr-right-img.gif);
+}
+/* footer */
+#footer {
+  width: 10rem;
+  position: sticky;
+  bottom: 0;
+  border-top: 1px solid #EEE;
+  background-color: white;
+}
+#footer .footer-content {
+  width: 10rem;
+  height: 1.33rem;
+  display: flex;
+}
+#footer .footer-content li {
+  flex-basis: 2rem;
+}
+#footer .footer-content li a {
+  display: block;
+  width: 2rem;
+  height: 1.33rem;
+}
+#footer .footer-content li a img {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+  margin: 0.16rem auto 0;
+}
+#footer .footer-content li a div {
+  font-size: 0.266rem;
+  color: #666;
+  text-align: center;
+}
+#footer .footer-content li a div.active {
+  font-weight: bold;
+  color: #000;
+}
